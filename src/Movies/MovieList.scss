@@ -1,0 +1,61 @@
+.movie-list-wrapper {
+  padding: 10px;
+}
+
+.navigation-header {
+padding: 20px;
+  background-color: #777;
+}
+
+.search-bar-head {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.empty-data {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.movie-list-wrap {
+  padding: 10px;
+  background-color:#777;
+  margin-top: 20px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(2, 1fr)
+
+}
+
+.movie-card {
+  padding: 20px;
+  background-color: #777;
+  height: 300px;
+  background-size:cover;
+  background-repeat: round;
+}
+
+.movie-title {
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display:flex;
+  text-align: center;
+  align-items:flex-end;
+justify-content: center;
+}
+
+@media (min-width: 430px) {
+  .movie-list-wrap {
+margin-top: 20px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(5, 1fr)
+
+
+  }
+}

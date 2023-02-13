@@ -1,2 +1,2 @@
-# movies-page
+# movies-list
 Created with CodeSandbox
